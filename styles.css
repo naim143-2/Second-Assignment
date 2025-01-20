@@ -1,0 +1,236 @@
+.fira-sans-thin {
+    font-family: "Fira Sans", serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .fira-sans-extralight {
+    font-family: "Fira Sans", serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .fira-sans-light {
+    font-family: "Fira Sans", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .fira-sans-regular {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+  }
+  
+  .fira-sans-medium {
+    font-family: "Fira Sans", serif;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 30px;
+    font-size: 20px;
+   
+  }
+  
+  .fira-sans-semibold {
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 30px;
+  }
+  
+  .fira-sans-bold {
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 30px;
+    font-size: 20px;
+  }
+  .fira-sans-bold-2 {
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 61px;
+    font-size: 56px;
+  }
+  
+  .fira-sans-extrabold {
+    font-family: "Fira Sans", serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .fira-sans-black {
+    font-family: "Fira Sans", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .fira-sans-thin-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .fira-sans-extralight-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .fira-sans-light-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .fira-sans-regular-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .fira-sans-medium-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .fira-sans-semibold-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .fira-sans-bold-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .fira-sans-extrabold-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  .fira-sans-black-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
+
+
+  .main{
+    display: flex;
+    margin: 20px 140px;
+  justify-content: space-between;
+  }
+  @media screen and (max-width:576px) {
+    .main{
+      grid-template-columns: repeat(3,1fr);
+    }
+  }
+  .pic{
+   margin-top: 20px;
+   gap: 11px;
+    display: flex
+  
+  }
+ 
+  .nav{
+    text-align: center;
+    gap: 32px;
+    margin-top: 36px;
+    
+    
+  }
+  .first-btn{
+    margin-top: 26px;
+    height: 50px;
+    gap: 10px;
+    width: 197px;
+    border-radius: 10px;
+    background-color: rgba(254, 163, 1, 1);
+    
+    color: rgba(255, 255, 255, 1);
+   
+    
+    
+
+  }
+  .home{
+    color: orange;
+  }
+  .about{
+    color: skyblue;
+  }
+  .faci{
+   color: rgba(5, 212, 223, 1)
+  }
+  .admi{
+    color: rgba(93, 88, 239, 1);
+  }
+  .nav a{
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+    gap: 32px;
+    
+    
+
+
+
+
+  }
+  @media screen (max-width 1.5dppx) {     
+    
+  }
+  .hero{
+display: flex;
+margin-left: 144px;
+margin-right: 138px;
+/* max-width: 1000px;
+height: 600px; */
+
+  }
+  .span{
+    color: orange;
+  }
+  .span-2{
+    color: skyblue;
+  }
+  .btn-2{
+    height: 50px;
+    gap: 10px;
+    width: 197px;
+    border-radius: 10px;
+    background-color: black;
+    color: rgba(255, 255, 255, 1);
+  }
+  .pera{
+    display: grid;
+    grid-template-rows: repeat(3,fr);
+  }
+  
+
+  
+  .img{
+    gap: 50px;
+  }
+  .main-div{
+    display: flex;
+    
+    width: 1160px;
+    height: 482px;
+  }
+  .stand{
+    text-align: center;
+  }
+  .sec-2{
+     margin-left: 140px; 
+    margin-top: 197px;
+    justify-content: space-evenly;
+  } */
