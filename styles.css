@@ -143,7 +143,7 @@
       visibility: visible;
     
     }
-    .hero, .pic, .main-div{
+    .hero, .pic, .main-div, .stand{
       flex-direction: column;
 
     }
@@ -155,7 +155,7 @@
   .img{
     position: absolute;
     top: 150px;
-    left: 55%;
+    left: 50%;
     transform: translateX(-50%);
    }
    .text{
@@ -164,6 +164,11 @@
     left: 50%;
     transform: translateX(-50%);
    }
+   .sec-2{
+    position: absolute;
+    top: 1200px;
+   }
+   
      
      
     }
@@ -260,10 +265,71 @@ height: 600px; */
     height: 482px;
   }
   .stand{
+    
+    width: 1000px;
+    height: 58px;
     text-align: center;
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 58px;
+    font-size: 46px;
+    
   }
   .sec-2{
+    background-image: url('assets/bg.png');
      margin-left: 140px; 
     margin-top: 197px;
     justify-content: space-evenly;
-  } */
+  } 
+  .kinder{
+    text-align: center;
+    padding: 40px;
+    margin-left: 30px;
+    justify-content: center;
+    background-color: rgba(222, 245, 255, 1);
+    border-radius: 20px;
+  }
+  .element{
+    text-align: center;
+    padding: 40px;
+    margin-left: 30px;
+    
+    justify-content: center;
+    background-color: rgba(255, 244, 220, 1);
+    border-radius: 20px;
+
+  }
+  .middle{
+    text-align: center;
+    padding: 40px;
+    justify-content: center;
+    background-color: rgba(242, 232, 255, 1);
+    margin-left: 30px;
+    border-radius: 20px;
+
+  }
+  .main-div{
+    height: 477px;
+  
+  }
+  .icon{
+    
+    max-width: 1100px;
+    margin-top: 100px;
+  text-align: center;
+  
+  }
+  .fa-arrow-left{
+    border: 20px solid orange;
+    margin-right: 10px;
+    color: white;
+    background-color: orange;
+    border-radius: 30px;
+  }
+  .fa-arrow-right{
+    border: 20px solid orange;
+    color: white;
+    background-color: orange;
+    border-radius: 30px;
+  }
