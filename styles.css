@@ -180,7 +180,8 @@
     display: flex;
     text-align: left;
     margin-left: 90px;
-    
+    font-size: 26px;
+    line-height: auto;
     
    }
    .icon{
@@ -295,8 +296,8 @@ height: 600px; */
     font-family: "Fira Sans", serif;
     font-weight: 700;
     font-style: normal;
-    line-height: auto;
-    font-size: 26px;
+    line-height: 58px;
+    font-size: 46px;
     
   }
   .sec-2{
@@ -351,10 +352,9 @@ height: 600px; */
   }
   .icon{
     
-    max-width: 1100px;
+    /* max-width: 1100px; */
     margin-top: 100px;
-  text-align: center;
-  
+    text-align: center;
   }
   .fa-arrow-left{
     border: 20px solid orange;
@@ -369,3 +369,159 @@ height: 600px; */
     background-color: orange;
     border-radius: 30px;
   }
+ 
+ .our-story-sect{
+  /* background-color: rgba(227, 176, 234, 1); */
+  background-blend-mode: multiply;
+ background: linear-gradient(rgba(254, 163, 1, 1)rgba(255, 255, 255, 1));
+  background-image: url('assets/bg.png');
+ }
+ .our-story-container{
+  display: flex;
+  grid-template-columns: repeat(3,1fr);
+  gap: 18px;
+  justify-content: center;
+  margin-top: 10px;
+ }
+ .our-story{
+  font-size: 46px;
+  font-weight: bold;
+  text-align: center;
+ }
+ #box-1{
+  grid-row: span 3;
+  border-radius: 16px;
+  background-color: white;
+  width: 548px;
+  height: 63px;
+
+ }
+ .story-2-3-4-5{
+  display: flex;
+  justify-content: center;
+  gap: 29px;
+
+ }
+ .box-2{
+  background-color: white;
+  border-radius: 16px;
+  gap: 21px;
+  margin-bottom: 19px;
+
+ }
+ .box-3{
+  background-color: white;
+  border-radius: 16px;
+
+ }
+ .box-4{
+  background-color: white;
+  border-radius: 16px;
+ 
+  margin-bottom: 19px;
+ }
+ .box-5{
+  background-color: white;
+  border-radius: 16px;
+
+ }
+ .first-box{
+  border-top-right-radius: 16px;
+  border-top-left-radius: 10px;
+  width: 100%;
+ }
+ .november-1tag{
+  color: white;
+  background-color: rgba(60, 216, 232, 1);
+  border: none;
+  display: inline;
+  position: relative;
+  border-radius: 100px;
+  padding: 14px 19px;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 2px 38px;
+ }
+ .box-2-november{
+  font-size: 15px;
+  font-weight: 500;
+  color: white;
+  background-color: rgba(149, 178, 38, 1);
+  position: relative;
+
+  border-radius: 100px;
+  display: inline;
+  margin:0 0 20px -280px;
+  padding: 14px 19px;
+  
+  
+ }
+ .box-3-november{
+  font-size: 15px;
+  font-weight: 500;
+  color: white;
+  background-color: rgba(93, 88, 240, 1);
+  position: relative;
+  border-radius: 100px;
+  display: inline;
+  margin: 0px 0px 20px -280px;
+  padding: 10px 19px;
+
+ }
+ .box-4-november{
+  font-size: 15px;
+  font-weight: 500;
+  color: white;
+  background-color: rgba(149, 178, 38, 1);
+  position: relative;
+  border-radius: 100px;
+  display: inline;
+  margin: 0 0 20px -280px;
+  padding: 10px 19px;
+ }
+ .box-5-november{
+  font-size: 15px;
+  font-weight: 500;
+  color: white;
+  background-color: rgba(149, 178, 38, 1);
+  position: relative;
+  border-radius: 100px;
+  display: inline;
+  margin: 0 0 20px -280px;
+  padding: 10px 19px;
+ }
+ .first-box-head{
+  font-size: 24px;
+  font-weight: bold;
+  padding: 58px 38px;
+ }
+ .first-box-pera{
+  padding: 0px 80px 34px 38px;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(102, 102, 102, 1);
+  margin-top: -40px;
+  background-color: white;
+
+ }
+ .box-2-3-4-5-img{
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+
+ }
+ .box-2-3-4-5-pera1{
+  font-size: 16px;
+  
+  font-weight: bold;
+  padding: 19px 38px 28px 37px;
+  background-color: white;
+  margin-right: 10PX;
+
+ }
+ .caption{
+  margin-top: -40px;
+ margin-right: 100px;
+ background-color: white;
+ border-bottom-right-radius: 10px;
+ border-bottom-left-radius: 10px;
+ }
