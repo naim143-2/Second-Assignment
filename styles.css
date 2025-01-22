@@ -224,9 +224,10 @@
     
   }
   .first-btn{
+    position: absolute;
+    margin-left: 1100px;
     margin-top: 26px;
     height: 50px;
-    gap: 10px;
     width: 197px;
     border-radius: 10px;
     background-color: rgba(254, 163, 1, 1);
@@ -285,10 +286,11 @@ height: 600px; */
     color: rgba(255, 255, 255, 1);
   }
   .pera{
-    display: grid;
-    grid-template-rows: repeat(3,fr);
+    margin-right: 120px;
   }
-  
+  .first-head{
+    margin-right: 200px;
+  }
 
   
   .img{
@@ -296,12 +298,14 @@ height: 600px; */
   }
   .main-div{
     display: flex;
-    margin-left: 1px;
+    margin-left: 100px;
     width: 1160px;
     height: 482px;
   }
   .stand{
-    
+    margin-top: 00px;
+    margin-bottom: 80px;
+    margin-left: 200px;
     width: 1000px;
     height: 58px;
     text-align: center;
@@ -363,9 +367,9 @@ height: 600px; */
   
   }
   .icon{
-    
-    /* max-width: 1100px; */
-    margin-top: 100px;
+    margin-right: 90PX;
+    margin-top: 80px;
+    margin-bottom: 60px;
     text-align: center;
   }
   .fa-arrow-left{
@@ -383,9 +387,7 @@ height: 600px; */
   }
  
  .our-story-sect{
-  /* background-color: rgba(227, 176, 234, 1); */
-  background-blend-mode: multiply;
- background: linear-gradient(rgba(254, 163, 1, 1)rgba(255, 255, 255, 1));
+  margin-top: 200px;
   background-image: url('assets/bg.png');
  }
  .our-story-container{
@@ -396,11 +398,14 @@ height: 600px; */
   margin-top: 10px;
  }
  .our-story{
+  margin-top: 60px;
+  margin-bottom: 80px;
   font-size: 46px;
   font-weight: bold;
   text-align: center;
  }
  #box-1{
+
   grid-row: span 3;
   border-radius: 16px;
   background-color: white;
@@ -414,7 +419,12 @@ height: 600px; */
   gap: 29px;
   
  }
+ .div-1{
+  border: 1px solid tomato;
+  border-radius: 16px;
+ }
  .box-2{
+  border: 1px solid tomato;
   background-color: white;
   border-radius: 16px;
   gap: 21px;
@@ -424,6 +434,7 @@ height: 600px; */
 
  }
  .box-3{
+  border: 1px solid tomato;
   background-color: white;
   border-radius: 16px;
   width: 290px;
@@ -431,6 +442,7 @@ height: 600px; */
 
  }
  .box-4{
+  border: 1px solid tomato;
   background-color: white;
   border-radius: 16px;
   width: 290px;
@@ -438,6 +450,7 @@ height: 600px; */
   margin-bottom: 19px;
  }
  .box-5{
+  border: 1px solid tomato;
   margin-right: 00px;
   background-color: white;
   border-radius: 16px;
@@ -550,22 +563,33 @@ height: 600px; */
   font-size: 16px;
   font-weight: bold;
   line-height: 29px;
+  padding: 10px;
+  margin-right: 50px;
+  margin-left: 20px;
 }
 .box-2-3-4-5-2pera{
   font-size: 16px;
   font-weight: bold;
   line-height: 29px;
+  padding: 10px;
+  margin-right: 50px;
+  margin-left: 20px;
 }
 .box-2-3-4-5-3pera{
   font-size: 16px;
   font-weight: bold;
   line-height: 29px;
-
+  padding: 10px;
+  margin-right: 50px;
+  margin-left: 20px;
 }
 .box-2-3-4-5-4pera{
   font-size: 16px;
   font-weight: bold;
   line-height: 29px;
+  padding: 10px;
+  margin-right: 50px;
+  margin-left: 20px;
 }
 .view-1{
   display: grid;
@@ -575,6 +599,8 @@ height: 600px; */
   
 }
 .view-2{
+ margin-top: 80px;
+ 
  
   background-color: black;
   color: white;
@@ -591,7 +617,7 @@ footer{
   height: 500px;
   width: 1480px;
   background-color: rgba(1, 172, 253, 1);
-  margin-top: 200px;
+  margin-top: 100px;
 }
 .container{
   display: flex;
