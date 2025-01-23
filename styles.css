@@ -131,10 +131,14 @@
   .banner{
     visibility: hidden;
   }
-  @media screen and (max-width: 576px) {
+   
+  /* @media screen and (max-width: 576px) {
     .nav, .school{
       display: none;
       
+    }
+    .first-head{
+      top: 7000px;
     }
     .first-btn {
       display: none;
@@ -182,7 +186,7 @@
     margin-left: 90px;
     font-size: 26px;
     line-height: auto;
-    
+    margin-right: 4000px;
    }
    .icon{
     display: none;
@@ -207,7 +211,7 @@
   }
      
      
-    }
+    }  */
   
   .pic{
    margin-top: 20px;
@@ -367,6 +371,7 @@ height: 600px; */
   
   }
   .icon{
+   
     margin-right: 90PX;
     margin-top: 80px;
     margin-bottom: 60px;
@@ -384,7 +389,12 @@ height: 600px; */
     color: white;
     background-color: orange;
     border-radius: 30px;
+   
   }
+  .icon:hover{
+    /* background: aqua; */
+  }
+  
  
  .our-story-sect{
   margin-top: 200px;
@@ -655,6 +665,12 @@ footer{
     font-weight: bold;
     margin-left: -200px;
   }
+  .last-head-2{
+    margin-top: 0;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: -200px;
+  }
   .last-pera{
     margin-right: 180px;
    
@@ -663,3 +679,132 @@ footer{
     display: flex;
     justify-content: space-between;
   }
+
+  @media screen and (max-width: 576px){
+    .school, .nav{
+      display: none;
+    }
+    .hero{
+     flex-direction: column ;
+    }
+    .first-btn{
+      visibility: hidden;
+    }
+    .img{
+      position: absolute;
+    top: 150px;
+    left: 50%;
+    transform: translateX(-50%);
+    }
+    .text{
+      position: absolute;
+      top: 700px;
+      left: 70%;
+      transform: translateX(-50%);
+      
+  }
+  .btn-2{
+    position: absolute;
+    left: 15%;
+  }
+  .banner{
+    visibility: visible;
+    position: absolute;
+    right: 0%;
+  }
+  .pic{
+    position: absolute;
+    left: 5%;
+    top: 0px;
+  }
+  
+}
+@media screen and (max-width: 576px){
+  .main-div{
+    flex-direction: column;
+   position: relative;
+   left: -50%;
+   top: 1300px;
+  }
+  .stand{
+    position: absolute;
+    left: -100%;
+    top: 1400px;
+  }
+  .icon{
+    visibility: hidden;
+  }
+  .our-story-sect{
+    flex-direction: column;
+    grid-template-columns: 1fr;
+    position: absolute;
+    top: 2500px;
+    
+    left: -100%;
+  }
+  .div-1{
+    visibility: hidden;
+  }
+  .our-story{
+    position: absolute;
+    left: 70%;
+    top: -20%;
+  }
+
+
+
+  #box-1{
+    visibility: hidden;
+  }
+
+  .view-1{
+    position: absolute;
+   bottom: -380%;
+   left: 50%;
+  }
+  footer{
+    flex-direction: column;
+    position: absolute;
+    bottom: -490%;
+    
+    height: 100%;
+    width: 100%px;
+  }
+  .container{
+    flex-direction: column;
+    position: absolute;
+    left: 10%;
+  }
+  .kiddo{
+    position: absolute;
+    left: -10%;
+    top: 10%;
+  }
+  marquee{
+    visibility: hidden;
+  }
+  .last-header{
+    position: absolute;
+    left: 110%;
+  }
+  .last-pera{
+    position: absolute;
+    left: -0%;
+    top: 30%;
+  }
+  .last-head{
+    position: absolute;
+    top: 60%;
+    left: 45%;
+    
+  }
+  
+}
+
+
+
+
+
+
+
+
